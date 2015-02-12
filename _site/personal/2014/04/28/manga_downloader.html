@@ -150,10 +150,59 @@
 	   2014
 	 </span>
 	  <div class="article_body">
-	  
+	  <p>MangaDownlader is a simple Java automatic tool to download manga from <a href="http://www.mangaeden.com/">MangaEden</a>.</p>
+
+<p>The project resulted from the need to download a lot of mangas and it was a Java experiment with:</p>
+<ul> 
+	<li>Multithreading programming</li>
+	<li>Swing GUI library</li>
+	<li>HTML parsing with [jsoup] library</li>
+</ul>
+
+<h2 id="functionality">Functionality</h2>
+
+<p>MangaDownloader can download an entire Manga or resume a previously download. It is helpfull when the manga is not over and a new chapter is released constantly.</p>
+
+<p>Every manga is stored in a foldier in your file system, which is divided into many foldiers as there are chapters (each chapter is downloaded in multithreading).</p>
+
+<p>Also Ubuntu user can use a bash scripts, located in extractPdfFromJPGs, to extract a pdf from the downloaded images. </p>
+
+<h2 id="how-to-use-it">How to Use it</h2>
+
+<p>To use it just follow the instructions.</p>
+
+<h3 id="download-the-manga">Download the Manga</h3>
+
+<ul>
+  <li>Go to <a href="http://www.mangaeden.com/">MangaEden</a> and select a manga from the list (you have to find a page similar to <a href="http://www.mangaeden.com/en-manga/naruto/">this one</a>). When you find it, just copy the url.</li>
+  <li>Run mangaedenDownloader.jar on your system </li>
+  <li>Select “Full Download” or “Resume Download”, according to the needs, and complete the fields as request.</li>
+  <li>Press “Start” and wait until it has finished.</li>
+</ul>
+
+<h3 id="pdf-extraction">PDF Extraction</h3>
+
+<p>These project contains two scripts: “extractPdf.sh” and “mangaToPDF.sh”.</p>
+
+<p>To get the pdf, put the first one in the foldier where are contained chapters’ directory and run the script.</p>
+
+<p>The second one is a launcher and need if you want to extract more pdf “togheter”. </p>
+
+<h2 id="bug-notes">Bug Notes</h2>
+
+<p>There is a known GUI’s bug: it may happen that the update bars do not follow the download. Your download will be ok.</p>
+
 
 	  </div>
 
+	
+	  <ul class="tag_box list-unstyled list-inline">
+		  <li><i class="fa fa-github-alt fa-lg"></i></li>
+				<li><a href="https://github.com/Pausa90/MangaDownloader">
+					<span>see on github</span>
+				</a>
+		  </li>
+		</ul>
 	
 
 		
@@ -163,7 +212,7 @@
 		  
 			 
 				<li><a href="/projects.html">
-					personal <span>(4)</span>
+					personal 
 					
 				</a></li>
 			

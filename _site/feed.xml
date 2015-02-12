@@ -62,20 +62,52 @@
 		
 			<item>
 				<title>Manga Downloader</title>
-				<description>
+				<description>&lt;p&gt;MangaDownlader is a simple Java automatic tool to download manga from &lt;a href=&quot;http://www.mangaeden.com/&quot;&gt;MangaEden&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The project resulted from the need to download a lot of mangas and it was a Java experiment with:&lt;/p&gt;
+&lt;ul&gt; 
+	&lt;li&gt;Multithreading programming&lt;/li&gt;
+	&lt;li&gt;Swing GUI library&lt;/li&gt;
+	&lt;li&gt;HTML parsing with [jsoup] library&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;functionality&quot;&gt;Functionality&lt;/h2&gt;
+
+&lt;p&gt;MangaDownloader can download an entire Manga or resume a previously download. It is helpfull when the manga is not over and a new chapter is released constantly.&lt;/p&gt;
+
+&lt;p&gt;Every manga is stored in a foldier in your file system, which is divided into many foldiers as there are chapters (each chapter is downloaded in multithreading).&lt;/p&gt;
+
+&lt;p&gt;Also Ubuntu user can use a bash scripts, located in extractPdfFromJPGs, to extract a pdf from the downloaded images. &lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-use-it&quot;&gt;How to Use it&lt;/h2&gt;
+
+&lt;p&gt;To use it just follow the instructions.&lt;/p&gt;
+
+&lt;h3 id=&quot;download-the-manga&quot;&gt;Download the Manga&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Go to &lt;a href=&quot;http://www.mangaeden.com/&quot;&gt;MangaEden&lt;/a&gt; and select a manga from the list (you have to find a page similar to &lt;a href=&quot;http://www.mangaeden.com/en-manga/naruto/&quot;&gt;this one&lt;/a&gt;). When you find it, just copy the url.&lt;/li&gt;
+  &lt;li&gt;Run mangaedenDownloader.jar on your system &lt;/li&gt;
+  &lt;li&gt;Select “Full Download” or “Resume Download”, according to the needs, and complete the fields as request.&lt;/li&gt;
+  &lt;li&gt;Press “Start” and wait until it has finished.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;pdf-extraction&quot;&gt;PDF Extraction&lt;/h3&gt;
+
+&lt;p&gt;These project contains two scripts: “extractPdf.sh” and “mangaToPDF.sh”.&lt;/p&gt;
+
+&lt;p&gt;To get the pdf, put the first one in the foldier where are contained chapters’ directory and run the script.&lt;/p&gt;
+
+&lt;p&gt;The second one is a launcher and need if you want to extract more pdf “togheter”. &lt;/p&gt;
+
+&lt;h2 id=&quot;bug-notes&quot;&gt;Bug Notes&lt;/h2&gt;
+
+&lt;p&gt;There is a known GUI’s bug: it may happen that the update bars do not follow the download. Your download will be ok.&lt;/p&gt;
+
 </description>
 				<pubDate>Mon, 28 Apr 2014 00:00:00 +0200</pubDate>
 				<link>/personal/2014/04/28/manga_downloader.html</link>
 				<guid isPermaLink="true">/personal/2014/04/28/manga_downloader.html</guid>
-			</item>
-		
-			<item>
-				<title>Plasm.js Desktop Release</title>
-				<description>
-</description>
-				<pubDate>Fri, 25 Apr 2014 00:00:00 +0200</pubDate>
-				<link>/personal/2014/04/25/plasm.js.html</link>
-				<guid isPermaLink="true">/personal/2014/04/25/plasm.js.html</guid>
 			</item>
 		
 			<item>
@@ -118,6 +150,64 @@
 				<pubDate>Sun, 20 Oct 2013 00:00:00 +0200</pubDate>
 				<link>/university/2013/10/20/twitter_sentiment_analysis.html</link>
 				<guid isPermaLink="true">/university/2013/10/20/twitter_sentiment_analysis.html</guid>
+			</item>
+		
+			<item>
+				<title>Plasm.js Projects</title>
+				<description>&lt;p&gt;During the course course of “Computational Graphic” I used &lt;a href=&quot;http://cvdlab.github.io/plasm.js/&quot;&gt;PlasmJS&lt;/a&gt;, a language based on JavaScript for 3D modeling.
+These are some workes that I have done. &lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-sm-4&quot;&gt;
+		&lt;h4 style=&quot;text-align: center&quot;&gt;Apple&lt;/h4&gt;
+		&lt;img src=&quot;/assets/images/plasm.js_projects/apple.jpg&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-sm-3&quot;&gt;
+		&lt;h4 style=&quot;text-align: center&quot;&gt;Bender&lt;/h4&gt;
+		&lt;img src=&quot;/assets/images/plasm.js_projects/bender.jpg&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-sm-4&quot;&gt;
+		&lt;h4 style=&quot;text-align: center&quot;&gt;Tea Cup&lt;/h4&gt;
+		&lt;img src=&quot;/assets/images/plasm.js_projects/tac_tea_pot_cup_render.png&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-sm-4&quot;&gt;
+		&lt;h4 style=&quot;text-align: center&quot;&gt;Tea Pot&lt;/h4&gt;
+		&lt;img src=&quot;/assets/images/plasm.js_projects/tac_tea_pot_render.png&quot; /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+				<pubDate>Sat, 20 Jul 2013 00:00:00 +0200</pubDate>
+				<link>/university/2013/07/20/plasm_js_projects.html</link>
+				<guid isPermaLink="true">/university/2013/07/20/plasm_js_projects.html</guid>
+			</item>
+		
+			<item>
+				<title>Plasm.js Desktop Release</title>
+				<description>&lt;p&gt;PlasmJS Desktop Release is an unofficial off-line installation for the PlasmJS Language, available only for Ubuntu (should work on all Debian release) and Mac OS X.&lt;/p&gt;
+
+&lt;p&gt;The project resulted from the need to deploy code off-line during the university course “&lt;a href=&quot;http://www.dia.uniroma3.it/~paoluzzi/web/did/graficacomp/2014/index.html&quot;&gt;Computational Graphics&lt;/a&gt;”. Also have been introduced some functionality to optimized the code develpment.&lt;/p&gt;
+
+&lt;p&gt;For more info about PlasmJS can read &lt;a href=&quot;https://github.com/cvdlab/plasm.js&quot;&gt;here&lt;/a&gt; &lt;/p&gt;
+
+&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
+
+&lt;p&gt;The installation is realized by a Bash Scripts’ calls concatenation, and offers:&lt;/p&gt;
+&lt;ul&gt; 
+	&lt;li&gt;&lt;b&gt;develop in Plasm.js off-line&lt;/b&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;custemed APIs' set&lt;/b&gt;: can store a new personlized API into a &quot;setup.js&quot; file, that will load dinamically every time you run your code. The project contains a personal set of APIs wrote it during the course&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;integrates withSublime Text 2 and Google Chrome&lt;/b&gt;:provide a personalized build system. You can wrote your code and just press &quot;ctrl&quot; + &quot;b&quot; to run it into a Google Chrome's tab&lt;/li&gt;
+	&lt;li&gt;provide a &lt;b&gt;bash command&lt;/b&gt; to launch the system&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Select the right foldier according to the computer platform and run “install.sh”. If a new PlasmJS version is available run “update.sh”.&lt;/p&gt;
+
+</description>
+				<pubDate>Thu, 25 Apr 2013 00:00:00 +0200</pubDate>
+				<link>/personal/2013/04/25/plasm.js.html</link>
+				<guid isPermaLink="true">/personal/2013/04/25/plasm.js.html</guid>
 			</item>
 		
 	</channel>
