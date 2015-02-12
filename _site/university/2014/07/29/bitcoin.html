@@ -91,38 +91,47 @@
 	<ul class="list-unstyled list-inline">
 		<!-- Bio -->
 		<li>
-			<a class="btn btn-default btn-sm" href="/biography.html">
-				<i class="fa fa-user fa-lg"></i>
-			</a>
+			<div title="about me">
+				<a class="btn btn-default btn-sm" href="/biography.html">
+					<i class="fa fa-user fa-lg"></i>
+				</a>
+			</div>
 		</li>
 		<!-- Projects -->
 		<li>
-			<p></p>
-			<a class="btn btn-default btn-sm" href="/projects.html">
-				<i class="fa fa-code fa-lg"></i>
-			</a>
-		</li>
+			<div title="projects">
+				<p></p>
+				<a class="btn btn-default btn-sm" href="/projects.html">
+					<i class="fa fa-code fa-lg"></i>
+				</a>
+			</div>
 	</ul>
 	<ul class="list-unstyled list-inline">
 		
 		<li>
-			<a class="btn btn-default btn-sm" href="https://github.com/Pausa90">
-				<i class="fa fa-github-alt fa-lg"></i>
-			</a>
+			<div title="github">
+				<a class="btn btn-default btn-sm" href="https://github.com/Pausa90">
+					<i class="fa fa-github-alt fa-lg"></i>
+				</a>
+			</div>
 		</li>
 		
 		
 		<li>
-			<a class="btn btn-default btn-sm" href="mailto:andreaiuliano90[at]gmail.com">
-				<i class="fa fa-envelope fa-lg"></i>
-			</a>
+			<div title="mail me">
+				<a class="btn btn-default btn-sm" href="mailto:andreaiuliano90[at]gmail.com">
+					<i class="fa fa-envelope fa-lg"></i>
+				</a>
+			</div>
 		</li>
 		
 		
 		<li>
-			<a class="btn btn-default btn-sm" href="https://linkedin.com/pub/andrea-iuliano/53/338/b10">
-				<i class="fa fa-linkedin fa-lg"></i>
-			</a>
+			<div title="linkedin">
+				<a class="btn btn-default btn-sm" href="https://linkedin.com/pub/andrea-iuliano/53/338/b10">
+					<i class="fa fa-linkedin fa-lg"></i>
+				</a>
+			</div>
 		</li>
 		
 	</ul>
@@ -150,28 +159,45 @@
 	   2014
 	 </span>
 	  <div class="article_body">
-	  <p><strong>dbyll</strong> is minimalist, stylish theme for jekyll. Supports gravatar, account links (github, twitter, e-mail, pinterest, résume file) and a bio.  </p>
+	  <p>This is a university project develop for the course <a href="http://www.dia.uniroma3.it/~infovis/">Information Visualization</a>. The purpose of this project is to visualize the bitcoin’s miners interactions. A miner is a particular user who collaborate in the building of bitcoin blockchain.</p>
 
-<p><strong>dbyll</strong> is brought to you by <strong><a href="http://ismaildemirbilek.com">dbtek</a></strong>. Open sourced under <a href="http://opensource.org/licenses/MIT">MIT</a> license.</p>
+<p>To do this we chose to develope two types of visualization, due to the different time range considered. <br />
+Both of them are represented by a graph view, in particular:</p>
+<ul>
+	<li>macro-level interaction: it's possible to view the interactions between miners over the time. In particular it is possible to view miners that collaborated in the same blocks. So a node indicates a miner and a link means a collaboration between two miners.</li>
+	<li>micro-level interaction: it's possible to view which blocks are mined by a miner. In this chart there are two types of node: the red one indicates a miner and the green one a block. A link between them indicates that the particular miner mined that block. </li>
+</ul>
+<p>Also we provided five filters to reduce the huge amount of informations.</p>
 
-<h3 id="dbyll-is-on-github">dbyll is on GitHub</h3>
+<p>The project is dived into two foldier:</p>
+<ul>
+	<li>Preprocessing: a parser of bitcoind's data written in Python. This module read the entire database and persist the filtered information into our mongoDB database.</li>
+	<li>Visualization: a web-app that provide the visualization service described before.</li>
+</ul>
 
-<p><a class="btn btn-default" href="https://github.com/dbtek/dbyll">Grab your copy now!</a></p>
+<!-- Contributors -->
+<p><br /></p>
 
-<div class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="l-Scalar-Plain">title</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">dbyll</span>
-<span class="l-Scalar-Plain">author</span><span class="p-Indicator">:</span>  
-  <span class="l-Scalar-Plain">name</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">yourname</span>  
-  <span class="l-Scalar-Plain">email</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">youremail</span>  
-  <span class="l-Scalar-Plain">github</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">asd123</span>  
-  <span class="l-Scalar-Plain">twitter</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">asd123</span>  
-  <span class="l-Scalar-Plain">pinterest</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">asd123</span>  
-  <span class="l-Scalar-Plain">linkedin</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">asd123</span>  
-  <span class="l-Scalar-Plain">resume</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">asd123</span>  
-  <span class="l-Scalar-Plain">bio</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">Your stylish,  minimalist theme!</span>  
-  <span class="l-Scalar-Plain">email_md5</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">md5ofemail</span></code></pre></div>
+<ul class="tag_box list-unstyled list-inline">
+	  <li><i class="fa fa-user fa-lg"></i></li>
+			<li><a href="http://v1ll0.github.io">
+				<span>Valerio Cestarelli</span>
+			</a>
+	  </li>
+</ul>
+
 
 	  </div>
 
+	 <!-- Source -->
+	
+	  <ul class="tag_box list-unstyled list-inline">
+		  <li><i class="fa fa-github-alt fa-lg"></i></li>
+				<li><a href="https://github.com/V1LL0/bitcoinVisualization">
+					<span>see on github</span>
+				</a>
+		  </li>
+		</ul>
 	
 
 		
@@ -196,7 +222,7 @@
 		  
 			 
 				<li>
-					visualization
+					information visualization
 					,
 				</li>
 			 
@@ -206,17 +232,27 @@
 				</li>
 			 
 				<li>
-					d3.js
-					,
-				</li>
-			 
-				<li>
 					python
 					,
 				</li>
 			 
 				<li>
+					d3.js
+					,
+				</li>
+			 
+				<li>
+					node.js
+					,
+				</li>
+			 
+				<li>
 					web-app
+					,
+				</li>
+			 
+				<li>
+					big data
 					,
 				</li>
 			 

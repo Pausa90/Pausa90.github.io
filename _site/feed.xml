@@ -8,25 +8,33 @@
 		
 			<item>
 				<title>Bitcoin Miners Visualization</title>
-				<description>&lt;p&gt;&lt;strong&gt;dbyll&lt;/strong&gt; is minimalist, stylish theme for jekyll. Supports gravatar, account links (github, twitter, e-mail, pinterest, résume file) and a bio.  &lt;/p&gt;
+				<description>&lt;p&gt;This is a university project develop for the course &lt;a href=&quot;http://www.dia.uniroma3.it/~infovis/&quot;&gt;Information Visualization&lt;/a&gt;. The purpose of this project is to visualize the bitcoin’s miners interactions. A miner is a particular user who collaborate in the building of bitcoin blockchain.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;dbyll&lt;/strong&gt; is brought to you by &lt;strong&gt;&lt;a href=&quot;http://ismaildemirbilek.com&quot;&gt;dbtek&lt;/a&gt;&lt;/strong&gt;. Open sourced under &lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+&lt;p&gt;To do this we chose to develope two types of visualization, due to the different time range considered. &lt;br /&gt;
+Both of them are represented by a graph view, in particular:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;macro-level interaction: it's possible to view the interactions between miners over the time. In particular it is possible to view miners that collaborated in the same blocks. So a node indicates a miner and a link means a collaboration between two miners.&lt;/li&gt;
+	&lt;li&gt;micro-level interaction: it's possible to view which blocks are mined by a miner. In this chart there are two types of node: the red one indicates a miner and the green one a block. A link between them indicates that the particular miner mined that block. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Also we provided five filters to reduce the huge amount of informations.&lt;/p&gt;
 
-&lt;h3 id=&quot;dbyll-is-on-github&quot;&gt;dbyll is on GitHub&lt;/h3&gt;
+&lt;p&gt;The project is dived into two foldier:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Preprocessing: a parser of bitcoind's data written in Python. This module read the entire database and persist the filtered information into our mongoDB database.&lt;/li&gt;
+	&lt;li&gt;Visualization: a web-app that provide the visualization service described before.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-default&quot; href=&quot;https://github.com/dbtek/dbyll&quot;&gt;Grab your copy now!&lt;/a&gt;&lt;/p&gt;
+&lt;!-- Contributors --&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;dbyll&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;author&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;  
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;yourname&lt;/span&gt;  
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;youremail&lt;/span&gt;  
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;asd123&lt;/span&gt;  
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;twitter&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;asd123&lt;/span&gt;  
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;pinterest&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;asd123&lt;/span&gt;  
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;linkedin&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;asd123&lt;/span&gt;  
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;resume&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;asd123&lt;/span&gt;  
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;bio&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Your stylish,  minimalist theme!&lt;/span&gt;  
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;email_md5&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;md5ofemail&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul class=&quot;tag_box list-unstyled list-inline&quot;&gt;
+	  &lt;li&gt;&lt;i class=&quot;fa fa-user fa-lg&quot;&gt;&lt;/i&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;http://v1ll0.github.io&quot;&gt;
+				&lt;span&gt;Valerio Cestarelli&lt;/span&gt;
+			&lt;/a&gt;
+	  &lt;/li&gt;
+&lt;/ul&gt;
+
 </description>
 				<pubDate>Tue, 29 Jul 2014 00:00:00 +0200</pubDate>
 				<link>/university/2014/07/29/bitcoin.html</link>
@@ -35,7 +43,26 @@
 		
 			<item>
 				<title>BOLD</title>
-				<description>
+				<description>&lt;p&gt;This is a university project develop for the course &lt;a href=&quot;http://www.dia.uniroma3.it/~torlone/bigdata/&quot;&gt;Big Data&lt;/a&gt;. The purpose of this project is to perform an analysis of DNA subsequences samples, named barcode, with the aim to classify and predict the species bolonging from a specific genomic sequence. In particular we conducted an analysis based on the concept of multi-locus, comparating the results with the past mono-locus research.&lt;/p&gt;
+
+&lt;p&gt;The work was based on the data presents in the &lt;a href=&quot;http://www.boldsystems.org/&quot;&gt;BOLD database&lt;/a&gt;. Specifically we considered species related to the family of plants and fungi.&lt;/p&gt;
+
+&lt;p&gt;The tool was realized by the combination of several components, develop by Bash Scripting and Python languages, along with a map-reduce stage.
+To use it, put the data in a foldier named “data” and start “fastaSplitter.sh” from a bash terminale&lt;/p&gt;
+
+&lt;p&gt;More detailed information about the project can be found on this &lt;a href=&quot;/assets/pdf/relazione_bold.pdf&quot;&gt;paper&lt;/a&gt; (located in italian)&lt;/p&gt;
+
+&lt;!-- Contributors --&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul class=&quot;tag_box list-unstyled list-inline&quot;&gt;
+	  &lt;li&gt;&lt;i class=&quot;fa fa-user fa-lg&quot;&gt;&lt;/i&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;http://v1ll0.github.io&quot;&gt;
+				&lt;span&gt;Valerio Cestarelli&lt;/span&gt;
+			&lt;/a&gt;
+	  &lt;/li&gt;
+&lt;/ul&gt;
+
 </description>
 				<pubDate>Sat, 19 Jul 2014 00:00:00 +0200</pubDate>
 				<link>/university/2014/07/19/bold.html</link>
@@ -43,17 +70,17 @@
 			</item>
 		
 			<item>
-				<title>Pacman Projects</title>
-				<description>
-</description>
-				<pubDate>Tue, 01 Jul 2014 00:00:00 +0200</pubDate>
-				<link>/university/2014/07/01/pacman_projects.html</link>
-				<guid isPermaLink="true">/university/2014/07/01/pacman_projects.html</guid>
-			</item>
-		
-			<item>
 				<title>Tetris</title>
-				<description>
+				<description>&lt;p&gt;A simple Tetris game for Android devices.&lt;/p&gt;
+
+&lt;p&gt;The project resulted from the challenge to realize a simple game without any game framework. Logic, multi-threading and canvas update are managed manually.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-sm-4&quot;&gt;&lt;/div&gt;
+	&lt;div class=&quot;col-sm-4&quot;&gt;
+		&lt;img src=&quot;/assets/images/tetris/screen.png&quot; /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
 </description>
 				<pubDate>Sun, 15 Jun 2014 00:00:00 +0200</pubDate>
 				<link>/personal/2014/06/15/tetris.html</link>
@@ -112,7 +139,21 @@
 		
 			<item>
 				<title>Yelp Predictor</title>
-				<description>
+				<description>&lt;p&gt;This is a university project develop for the challenge held in the course &lt;a href=&quot;https://sites.google.com/site/sistemiintelligentiperinternet/&quot;&gt;Sistemi Intelligenti per Internet&lt;/a&gt;. It was required the development of a tool that can predict the rate of a place diven by a particular user, using data provided by &lt;a href=&quot;https://www.yelp.com&quot;&gt;Yelp&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;More detailed information about the project request can be found it &lt;a href=&quot;https://sites.google.com/site/sistemiintelligentiperinternet/challenge-a-a-2013-2014&quot;&gt;here&lt;/a&gt;, while as regards the development see at this &lt;a href=&quot;/assets/pdf/presentazione_challenge.pdf&quot;&gt;link&lt;/a&gt; (both located in italian)&lt;/p&gt;
+
+&lt;!-- Contributors --&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul class=&quot;tag_box list-unstyled list-inline&quot;&gt;
+	  &lt;li&gt;&lt;i class=&quot;fa fa-user fa-lg&quot;&gt;&lt;/i&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;http://v1ll0.github.io&quot;&gt;
+				&lt;span&gt;Valerio Cestarelli&lt;/span&gt;
+			&lt;/a&gt;
+	  &lt;/li&gt;
+&lt;/ul&gt;
+
 </description>
 				<pubDate>Sun, 19 Jan 2014 00:00:00 +0100</pubDate>
 				<link>/university/2014/01/19/yelp_predictor.html</link>
@@ -145,7 +186,52 @@
 		
 			<item>
 				<title>Twitter Sentiment Analysis</title>
-				<description>
+				<description>&lt;p&gt;This project consists in creating a simple software tool that is able to classify and predict textual data, extrapolated from Twitter. Were considered 40183 tweet,divided between training-set (40000) and testing-set (183).&lt;/p&gt;
+
+&lt;p&gt;For semplicity, the tool stores the information in memory and was realized with K-NN as prediction algorithm. However it was implemented an interface “ClassificationAlgorithm” to allow any future changes to the system.&lt;/p&gt;
+
+&lt;p&gt;The goal of this project is to understand not only the positivity/negativity associated with a sentence, but also the influence of the parts of the speech contained therein.
+The tool extracts the most common measures in information retrival area, from which it was possible to extract data and charts below with a 3-NN instance.&lt;/p&gt;
+
+&lt;table border=&quot;1&quot; style=&quot;text-align: center&quot;&gt;
+	&lt;tr&gt;
+		&lt;td&gt;ConfusionMatrix&lt;/td&gt;
+		&lt;td&gt;TruthPositive&lt;/td&gt;
+		&lt;td&gt;TruthNegative&lt;/td&gt; 
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;SystemPositive&lt;/td&gt;
+		&lt;td&gt;100&lt;/td&gt;
+		&lt;td&gt;43&lt;/td&gt; 
+	&lt;/tr&gt;	
+	&lt;tr&gt;
+		&lt;td&gt;SystemNegative&lt;/td&gt;
+		&lt;td&gt;8&lt;/td&gt;
+		&lt;td&gt;32&lt;/td&gt; 
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br /&gt;
+Statistics:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;error rate: 43.04371584699454 &lt;/li&gt;
+	&lt;li&gt;accuracy: 0.48 &lt;/li&gt;
+	&lt;li&gt;precision: 0.6993006993006993 &lt;/li&gt;
+	&lt;li&gt;recall: 0.9259259259259259 &lt;/li&gt;
+	&lt;li&gt;breack-even: 0.8126133126133126 &lt;/li&gt;
+	&lt;li&gt;f1-measure: 0.7968127490039841 &lt;/li&gt;
+	&lt;li&gt;fails Number: 51&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;p style=&quot;text-align: center&quot;&gt; Positive Recap &lt;/p&gt;
+	&lt;img src=&quot;/assets/images/twitter_sentiment_analysis/recap_positive.png&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;p style=&quot;text-align: center&quot;&gt; Negative Recap &lt;/p&gt;
+	&lt;img src=&quot;/assets/images/twitter_sentiment_analysis/recap_negative.png&quot; /&gt;
+&lt;/div&gt;
 </description>
 				<pubDate>Sun, 20 Oct 2013 00:00:00 +0200</pubDate>
 				<link>/university/2013/10/20/twitter_sentiment_analysis.html</link>
