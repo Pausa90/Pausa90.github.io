@@ -22,6 +22,16 @@
 	  {{ content }}
 	  </div>
 
+	{% if page.source != null %}
+	  <ul class="tag_box list-unstyled list-inline">
+		  <li><i class="fa fa-github-alt fa-lg"></i></li>
+				<li><a href="https://github.com/{{ page.source }}">
+					<span>see in github</span>
+				</a>
+		  </li>
+		</ul>
+	{% endif %}
+
 		{% unless page.categories == empty %}
 		<ul class="tag_box list-unstyled list-inline">
 		  <li><i class="fa fa-folder-open"></i></li>

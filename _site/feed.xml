@@ -8,13 +8,13 @@
 		
 			<item>
 				<title>Bitcoin Miners Visualization</title>
-				<description>**dbyll** is minimalist, stylish theme for jekyll. Supports gravatar, account links (github, twitter, e-mail, pinterest, résume file) and a bio.  
+				<description>&lt;p&gt;&lt;strong&gt;dbyll&lt;/strong&gt; is minimalist, stylish theme for jekyll. Supports gravatar, account links (github, twitter, e-mail, pinterest, résume file) and a bio.  &lt;/p&gt;
 
-**dbyll** is brought to you by **[dbtek](http://ismaildemirbilek.com)**. Open sourced under [MIT](http://opensource.org/licenses/MIT) license.
-  
-### dbyll is on GitHub
+&lt;p&gt;&lt;strong&gt;dbyll&lt;/strong&gt; is brought to you by &lt;strong&gt;&lt;a href=&quot;http://ismaildemirbilek.com&quot;&gt;dbtek&lt;/a&gt;&lt;/strong&gt;. Open sourced under &lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
 
-&lt;a class=&quot;btn btn-default&quot; href=&quot;https://github.com/dbtek/dbyll&quot;&gt;Grab your copy now!&lt;/a&gt;
+&lt;h3 id=&quot;dbyll-is-on-github&quot;&gt;dbyll is on GitHub&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn btn-default&quot; href=&quot;https://github.com/dbtek/dbyll&quot;&gt;Grab your copy now!&lt;/a&gt;&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;dbyll&lt;/span&gt;
 &lt;span class=&quot;l-Scalar-Plain&quot;&gt;author&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;  
@@ -26,7 +26,8 @@
   &lt;span class=&quot;l-Scalar-Plain&quot;&gt;linkedin&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;asd123&lt;/span&gt;  
   &lt;span class=&quot;l-Scalar-Plain&quot;&gt;resume&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;asd123&lt;/span&gt;  
   &lt;span class=&quot;l-Scalar-Plain&quot;&gt;bio&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Your stylish,  minimalist theme!&lt;/span&gt;  
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;email_md5&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;md5ofemail&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;email_md5&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;md5ofemail&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+</description>
 				<pubDate>Tue, 29 Jul 2014 00:00:00 +0200</pubDate>
 				<link>/university/2014/07/29/bitcoin.html</link>
 				<guid isPermaLink="true">/university/2014/07/29/bitcoin.html</guid>
@@ -34,7 +35,8 @@
 		
 			<item>
 				<title>BOLD</title>
-				<description></description>
+				<description>
+</description>
 				<pubDate>Sat, 19 Jul 2014 00:00:00 +0200</pubDate>
 				<link>/university/2014/07/19/bold.html</link>
 				<guid isPermaLink="true">/university/2014/07/19/bold.html</guid>
@@ -42,7 +44,8 @@
 		
 			<item>
 				<title>Pacman Projects</title>
-				<description></description>
+				<description>
+</description>
 				<pubDate>Tue, 01 Jul 2014 00:00:00 +0200</pubDate>
 				<link>/university/2014/07/01/pacman_projects.html</link>
 				<guid isPermaLink="true">/university/2014/07/01/pacman_projects.html</guid>
@@ -50,7 +53,8 @@
 		
 			<item>
 				<title>Tetris</title>
-				<description></description>
+				<description>
+</description>
 				<pubDate>Sun, 15 Jun 2014 00:00:00 +0200</pubDate>
 				<link>/personal/2014/06/15/tetris.html</link>
 				<guid isPermaLink="true">/personal/2014/06/15/tetris.html</guid>
@@ -58,7 +62,8 @@
 		
 			<item>
 				<title>Manga Downloader</title>
-				<description></description>
+				<description>
+</description>
 				<pubDate>Mon, 28 Apr 2014 00:00:00 +0200</pubDate>
 				<link>/personal/2014/04/28/manga_downloader.html</link>
 				<guid isPermaLink="true">/personal/2014/04/28/manga_downloader.html</guid>
@@ -66,7 +71,8 @@
 		
 			<item>
 				<title>Plasm.js Desktop Release</title>
-				<description></description>
+				<description>
+</description>
 				<pubDate>Fri, 25 Apr 2014 00:00:00 +0200</pubDate>
 				<link>/personal/2014/04/25/plasm.js.html</link>
 				<guid isPermaLink="true">/personal/2014/04/25/plasm.js.html</guid>
@@ -74,7 +80,8 @@
 		
 			<item>
 				<title>Yelp Predictor</title>
-				<description></description>
+				<description>
+</description>
 				<pubDate>Sun, 19 Jan 2014 00:00:00 +0100</pubDate>
 				<link>/university/2014/01/19/yelp_predictor.html</link>
 				<guid isPermaLink="true">/university/2014/01/19/yelp_predictor.html</guid>
@@ -82,7 +89,23 @@
 		
 			<item>
 				<title>Netkit LabGenerator</title>
-				<description></description>
+				<description>&lt;p&gt;Netkit_LabGenerator is an unofficial automatic tool for &lt;a href=&quot;http://wiki.netkit.org/index.php/Main_Page&quot;&gt;Netkit&lt;/a&gt; use.&lt;/p&gt;
+
+&lt;p&gt;This project resulted from the desire to reduce the time of creation (and modification) of a simulated laboratory, during the university course &lt;a href=&quot;http://www.dia.uniroma3.it/~impianti/HomePage12-13/index_irc.html&quot;&gt;Infrastrutture delle Reti di Calcolatori&lt;/a&gt;. &lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-use-it&quot;&gt;How to use it&lt;/h2&gt;
+
+&lt;p&gt;The project contain a detailed instructions in italian located in “istruzioni per l’uso.txt”.&lt;/p&gt;
+
+&lt;p&gt;The script creates a simulated network by reading the contens of “configuration_lab.conf”, described by a precise syntax. The project contain a sample file.&lt;/p&gt;
+
+&lt;p&gt;One written the configuration file, start “lab_generator.sh” and netkit later.&lt;/p&gt;
+
+&lt;p&gt;To changes the lab description just clean the netkit’s files through “clean.sh”, edit the configuration file and repeat the procedure.&lt;/p&gt;
+
+&lt;p&gt;The script does NOT have any form of intelligence, therefore it only create one sketch of the file “bgpd.conf”, wich requires modification.&lt;/p&gt;
+
+</description>
 				<pubDate>Sat, 04 Jan 2014 00:00:00 +0100</pubDate>
 				<link>/personal/2014/01/04/netkit.html</link>
 				<guid isPermaLink="true">/personal/2014/01/04/netkit.html</guid>
@@ -90,7 +113,8 @@
 		
 			<item>
 				<title>Twitter Sentiment Analysis</title>
-				<description></description>
+				<description>
+</description>
 				<pubDate>Sun, 20 Oct 2013 00:00:00 +0200</pubDate>
 				<link>/university/2013/10/20/twitter_sentiment_analysis.html</link>
 				<guid isPermaLink="true">/university/2013/10/20/twitter_sentiment_analysis.html</guid>
