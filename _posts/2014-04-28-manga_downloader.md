@@ -25,6 +25,19 @@ Every manga is stored in a foldier in your file system, which is divided into ma
 
 Also Ubuntu user can use a bash scripts, located in extractPdfFromJPGs, to extract a pdf from the downloaded images. 
 
+<div class="row">
+	<div class="col-sm-5">
+		<h4 style="text-align: center">Home</h4>
+		<img src="{{ site.BASE_PATH }}/assets/images/mangaDownloader/home.png"/>
+	</div>
+	<div class="col-sm-7">
+		<h4 style="text-align: center">Download</h4>
+		<img src="{{ site.BASE_PATH }}/assets/images/mangaDownloader/download.png"/>
+	</div>
+</div>
+
+<br/>
+
 ## How to Use it
 
 To use it just follow the instructions.
