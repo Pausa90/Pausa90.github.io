@@ -25,6 +25,25 @@ Both of them are represented by a graph view, in particular:&lt;/p&gt;
 	&lt;li&gt;Visualization: a web-app that provide the visualization service described before.&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;More detailed information about the project can be found on this &lt;a href=&quot;/assets/pdf/bitcoin.pdf&quot;&gt;paper&lt;/a&gt; (located in italian)&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-sm-6&quot;&gt;
+		&lt;h4 style=&quot;text-align: center&quot;&gt;Graph1&lt;/h4&gt;
+		&lt;img src=&quot;/assets/images/bitcoin/grafo1.png&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-sm-6&quot;&gt;
+		&lt;h4 style=&quot;text-align: center&quot;&gt;Graph2&lt;/h4&gt;
+		&lt;img src=&quot;/assets/images/bitcoin/grafo2.png&quot; /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot; style=&quot;center: true&quot;&gt;
+	&lt;div class=&quot;col-sm-10&quot;&gt;
+		&lt;h4 style=&quot;text-align: center&quot;&gt;Filters&lt;/h4&gt;
+		&lt;img src=&quot;/assets/images/bitcoin/filtri.png&quot; /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
 &lt;!-- Contributors --&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
