@@ -17,7 +17,7 @@ More detailed information about the project request can be found it [here], whil
 <br/>
 
 <ul class="tag_box list-unstyled list-inline">
-	  <li><i class="fa fa-user fa-lg"></i></li>
+	  <li><i class="fa fa-users fa-lg"></i></li>
 			<li><a href="http://v1ll0.github.io">
 				<span>Valerio Cestarelli</span>
 			</a>

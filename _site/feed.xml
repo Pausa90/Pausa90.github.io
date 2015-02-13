@@ -8,7 +8,8 @@
 		
 			<item>
 				<title>Bitcoin Miners Visualization</title>
-				<description>&lt;p&gt;This is a university project develop for the course &lt;a href=&quot;http://www.dia.uniroma3.it/~infovis/&quot;&gt;Information Visualization&lt;/a&gt;. The purpose of this project is to visualize the bitcoin’s miners interactions. A miner is a particular user who collaborate in the building of bitcoin blockchain.&lt;/p&gt;
+				<description>&lt;p&gt;This is an university project develop for the course &lt;a href=&quot;http://www.dia.uniroma3.it/~infovis/&quot;&gt;Information Visualization&lt;/a&gt;. &lt;br /&gt;
+The purpose of this project is to visualize the bitcoin’s miners interactions. A miner is a particular user who collaborate in the building of bitcoin blockchain.&lt;/p&gt;
 
 &lt;p&gt;To do this we chose to develope two types of visualization, due to the different time range considered. &lt;br /&gt;
 Both of them are represented by a graph view, in particular:&lt;/p&gt;
@@ -28,7 +29,7 @@ Both of them are represented by a graph view, in particular:&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;ul class=&quot;tag_box list-unstyled list-inline&quot;&gt;
-	  &lt;li&gt;&lt;i class=&quot;fa fa-user fa-lg&quot;&gt;&lt;/i&gt;&lt;/li&gt;
+	  &lt;li&gt;&lt;i class=&quot;fa fa-users fa-lg&quot;&gt;&lt;/i&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;http://v1ll0.github.io&quot;&gt;
 				&lt;span&gt;Valerio Cestarelli&lt;/span&gt;
 			&lt;/a&gt;
@@ -43,12 +44,12 @@ Both of them are represented by a graph view, in particular:&lt;/p&gt;
 		
 			<item>
 				<title>BOLD</title>
-				<description>&lt;p&gt;This is a university project develop for the course &lt;a href=&quot;http://www.dia.uniroma3.it/~torlone/bigdata/&quot;&gt;Big Data&lt;/a&gt;. The purpose of this project is to perform an analysis of DNA subsequences samples, named barcode, with the aim to classify and predict the species bolonging from a specific genomic sequence. In particular we conducted an analysis based on the concept of multi-locus, comparating the results with the past mono-locus research.&lt;/p&gt;
+				<description>&lt;p&gt;This is an university project develop for the course &lt;a href=&quot;http://www.dia.uniroma3.it/~torlone/bigdata/&quot;&gt;Big Data&lt;/a&gt;. The purpose of this project is to perform an analysis of DNA subsequences samples, named barcode, with the aim to classify and predict the species bolonging from a specific genomic sequence. In particular we conducted an analysis based on the concept of multi-locus, comparating the results with the past mono-locus research.&lt;/p&gt;
 
 &lt;p&gt;The work was based on the data presents in the &lt;a href=&quot;http://www.boldsystems.org/&quot;&gt;BOLD database&lt;/a&gt;. Specifically we considered species related to the family of plants and fungi.&lt;/p&gt;
 
 &lt;p&gt;The tool was realized by the combination of several components, develop by Bash Scripting and Python languages, along with a map-reduce stage.
-To use it, put the data in a foldier named “data” and start “fastaSplitter.sh” from a bash terminale&lt;/p&gt;
+To use it, put the data in a foldier named “data” and start “fastaSplitter.sh” from a bash terminal.&lt;/p&gt;
 
 &lt;p&gt;More detailed information about the project can be found on this &lt;a href=&quot;/assets/pdf/relazione_bold.pdf&quot;&gt;paper&lt;/a&gt; (located in italian)&lt;/p&gt;
 
@@ -56,7 +57,7 @@ To use it, put the data in a foldier named “data” and start “fastaSplitter
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;ul class=&quot;tag_box list-unstyled list-inline&quot;&gt;
-	  &lt;li&gt;&lt;i class=&quot;fa fa-user fa-lg&quot;&gt;&lt;/i&gt;&lt;/li&gt;
+	  &lt;li&gt;&lt;i class=&quot;fa fa-users fa-lg&quot;&gt;&lt;/i&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;http://v1ll0.github.io&quot;&gt;
 				&lt;span&gt;Valerio Cestarelli&lt;/span&gt;
 			&lt;/a&gt;
@@ -100,7 +101,7 @@ To use it, put the data in a foldier named “data” and start “fastaSplitter
 
 &lt;h2 id=&quot;functionality&quot;&gt;Functionality&lt;/h2&gt;
 
-&lt;p&gt;MangaDownloader can download an entire Manga or resume a previously download. It is helpfull when the manga is not over and a new chapter is released constantly.&lt;/p&gt;
+&lt;p&gt;MangaDownloader can download an entire manga or resume a previously download. It is helpfull when the manga is not over and a new chapter is released.&lt;/p&gt;
 
 &lt;p&gt;Every manga is stored in a foldier in your file system, which is divided into many foldiers as there are chapters (each chapter is downloaded in multithreading).&lt;/p&gt;
 
@@ -110,7 +111,7 @@ To use it, put the data in a foldier named “data” and start “fastaSplitter
 
 &lt;p&gt;To use it just follow the instructions.&lt;/p&gt;
 
-&lt;h3 id=&quot;download-the-manga&quot;&gt;Download the Manga&lt;/h3&gt;
+&lt;h4 id=&quot;download-the-manga&quot;&gt;Download the Manga&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Go to &lt;a href=&quot;http://www.mangaeden.com/&quot;&gt;MangaEden&lt;/a&gt; and select a manga from the list (you have to find a page similar to &lt;a href=&quot;http://www.mangaeden.com/en-manga/naruto/&quot;&gt;this one&lt;/a&gt;). When you find it, just copy the url.&lt;/li&gt;
@@ -119,7 +120,7 @@ To use it, put the data in a foldier named “data” and start “fastaSplitter
   &lt;li&gt;Press “Start” and wait until it has finished.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;pdf-extraction&quot;&gt;PDF Extraction&lt;/h3&gt;
+&lt;h4 id=&quot;pdf-extraction&quot;&gt;PDF Extraction&lt;/h4&gt;
 
 &lt;p&gt;These project contains two scripts: “extractPdf.sh” and “mangaToPDF.sh”.&lt;/p&gt;
 
@@ -147,7 +148,7 @@ To use it, put the data in a foldier named “data” and start “fastaSplitter
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;ul class=&quot;tag_box list-unstyled list-inline&quot;&gt;
-	  &lt;li&gt;&lt;i class=&quot;fa fa-user fa-lg&quot;&gt;&lt;/i&gt;&lt;/li&gt;
+	  &lt;li&gt;&lt;i class=&quot;fa fa-users fa-lg&quot;&gt;&lt;/i&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;http://v1ll0.github.io&quot;&gt;
 				&lt;span&gt;Valerio Cestarelli&lt;/span&gt;
 			&lt;/a&gt;

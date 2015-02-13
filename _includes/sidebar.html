@@ -17,10 +17,19 @@
 <div id="contact-list" class="text-center">
 	<ul class="list-unstyled list-inline">
 		<!-- Bio -->
-		<li>
+<!-- 		<li>
 			<div title="about me">
 				<a class="btn btn-default btn-sm" href="{{ site.BASE_PATH }}/{{ site.biography_path }}">
 					<i class="fa fa-user fa-lg"></i>
+				</a>
+			</div>
+		</li> -->
+		<!-- CV -->
+		<li>
+			<div title="cv">
+				<p>{{site.data.navigation}}</p>
+				<a class="btn btn-default btn-sm" href="{{ site.BASE_PATH }}/assets/pdf/CV-Iuliano.pdf">
+					<i class="fa fa-file-text fa-lg"></i>
 				</a>
 			</div>
 		</li>
@@ -32,6 +41,7 @@
 					<i class="fa fa-code fa-lg"></i>
 				</a>
 			</div>
+		</li>
 	</ul>
 	<ul class="list-unstyled list-inline">
 		{% if site.author.github %}
